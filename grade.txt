@@ -1,0 +1,49 @@
+CMSC 421 Homework 1 Grade
+Total Possible Points: 100
+
+Student : 
+Email : asfari1@umbc.edu
+Github Username : kodekoala
+
+
+Simple Shell
+
+------------------------------------------------------------------
+Using Makefile                                                : 3/3
+Code compiles without errors                                  : 7/7
+------------------------------------------------------------------
+Parsing input                                        
+    - Can handle fixed input                                  : 6/6
+    - Can handle arbitrary length                             : 8/10
+    - File mode supported                                     : 4/5
+    - Interactive mode supported                              : 5/5
+    - Escape characters propely handeled                      : 7/7
+------------------------------------------------------------------
+Fork
+    - Forks properly                                          : 10/10
+    - Handles errors when forking                             : 4/4
+------------------------------------------------------------------
+Exec
+    - Formats exec arguments correctly                        : 6/6
+    - Calls appropriate exec function                         : 4/4
+    - Handles exec errors                                     : 10/10
+------------------------------------------------------------------
+Memory Management
+    - Frees parent process memory correctly                   : 10/10
+    - Frees child process memory correctly                    : 7/10
+------------------------------------------------------------------
+Miscellaneous                         
+    - Using proper exit codes and outputstreams               : 3/3
+------------------------------------------------------------------
+
+Project Grade                                                 : 94/100
+Late penalty, if applicable                                   : 
+------------------------------------------------------------------
+Final Homework 1 Grade                                        : 94/100
+
+Comments from the TA:
+
+---------------------
+Parsing input                                        
+    - Can handle arbitrary length : failing for large string length in interactive mode
+    - File mode supported : failing for a couple of commands    
